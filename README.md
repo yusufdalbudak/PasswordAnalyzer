@@ -1,32 +1,30 @@
 # Password Strength Analyzer
 
-A professional password strength analyzer application built with Python and tkinter. This tool provides real-time analysis of password strength based on various criteria including entropy, character diversity, and pattern matching.
+A modern Python application that analyzes password strength with a graphical user interface.
 
 ## Features
 
 - Real-time password strength analysis
-- Visual strength indicator with color coding
-- Comprehensive password requirements checking
-- Entropy calculation using Shannon entropy formula
-- Character set diversity analysis
-- Pattern matching and validation
-- Modern and user-friendly GUI
+- Visual strength indicator
+- Entropy calculation
+- Character set analysis
+- Pattern detection
+- Modern GUI with scrollable interface
 
 ## Requirements
 
-- Python 3.6 or higher
+- Python 3.6+
 - tkinter (usually comes with Python)
-- numpy
 
 ## Installation
 
-1. Clone this repository:
+1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/password-strength-analyzer.git
-cd password-strength-analyzer
+git clone https://github.com/yusufdalbudak/PasswordAnalyzer.git
+cd PasswordAnalyzer
 ```
 
-2. Install the required dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -40,18 +38,12 @@ python gui.py
 
 ## Password Analysis Criteria
 
-The password strength is evaluated based on the following criteria:
-
-1. **Length**: Minimum 8 characters
-2. **Character Diversity**:
-   - Lowercase letters
-   - Uppercase letters
-   - Digits
-   - Special symbols
-3. **Pattern Analysis**:
-   - No repeating characters
-   - No common patterns (e.g., "123", "abc", "qwerty")
-4. **Entropy**: Calculated using Shannon entropy formula
+The analyzer checks for:
+- Password length (minimum 8 characters)
+- Character diversity (lowercase, uppercase, numbers, symbols)
+- Common patterns
+- Repeating characters
+- Shannon entropy
 
 ## Strength Categories
 
@@ -61,10 +53,6 @@ The password strength is evaluated based on the following criteria:
 - Strong (70-85): Green
 - Very Strong (85-100): Dark Green
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details. 
